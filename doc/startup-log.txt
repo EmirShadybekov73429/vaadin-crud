@@ -1,0 +1,30 @@
+$ ./mvnw spring-boot:run
+(excerpt of console output from a local run on 2026-10-25, unrelated lines trimmed)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-25T19:38:07.584+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Starting CrudwithvaadinApplication using Java 25.0.1 with PID 15671 (/Users/vadym/vaadin-crud/target/classes started by vadym in /Users/vadym/vaadin-crud)
+2026-10-25T19:38:07.873+01:00  INFO 15671 --- [crudwithvaadin] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2026-10-25T19:38:08.044+01:00  INFO 15671 --- [crudwithvaadin] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-25T19:38:09.465+01:00  INFO 15671 --- [crudwithvaadin] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:43a4e88b-9a3e-4f79-872d-958eb130b330 user=SA
+2026-10-25T19:38:09.517+01:00  INFO 15671 --- [crudwithvaadin] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-25T19:38:10.108+01:00  INFO 15671 --- [crudwithvaadin] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-25T19:38:10.380+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.v.f.s.DefaultDeploymentConfiguration   :
+Vaadin is running in DEVELOPMENT mode - do not use for production deployments.
+2026-10-25T19:38:10.405+01:00  INFO 15671 --- [crudwithvaadin] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-25T19:38:10.407+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Started CrudwithvaadinApplication in 2.957 seconds (process running for 3.103)
+2026-10-25T19:38:10.438+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Customers found with findAll():
+2026-10-25T19:38:10.438+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : -------------------------------
+2026-10-25T19:38:10.501+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Customer[id=1, firstName='Jack', lastName='Bauer']
+2026-10-25T19:38:10.501+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Customer[id=2, firstName='Chloe', lastName='O'Brian']
+2026-10-25T19:38:10.501+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Customer[id=3, firstName='Kim', lastName='Bauer']
+2026-10-25T19:38:10.501+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Customer[id=4, firstName='David', lastName='Palmer']
+2026-10-25T19:38:10.501+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.e.c.CrudwithvaadinApplication          : Customer[id=5, firstName='Michelle', lastName='Dessler']
+2026-10-25T19:38:10.502+01:00  INFO 15671 --- [crudwithvaadin] [           main] c.v.b.d.DevModeHandlerManagerImpl        : Application running at http://localhost:8080/
